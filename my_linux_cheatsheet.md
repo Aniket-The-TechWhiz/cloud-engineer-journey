@@ -52,9 +52,9 @@ instead of the rwx we can also use the numbers r->4, w->2, x->1
 example :- chmod 777 test.sh
 output :- rwxrwxrwx test.sh //add all permission to the use group and other 
 
-2)sudo chown root file.txt //it will change the owner of the file 
+2) sudo chown root file.txt //it will change the owner of the file 
 
-3)sudo chown root:root file.txt //it will change the owner and also the user also 
+3) sudo chown root:root file.txt //it will change the owner and also the user also 
 
 ##imp :- sudo is linux cmd-line utility that allows authorized users to execute commands with the security privileges of another user
 
@@ -64,19 +64,19 @@ output :- rwxrwxrwx test.sh //add all permission to the use group and other
 
 imp:- apt (Advance package tool)
 
-1)sudo apt update && sudo apt upgrade
+1) sudo apt update && sudo apt upgrade
 
-2)sudo apt install <package name> //install package
+2) sudo apt install <package name> //install package
 
-3)sudo apt remove <package name> //uninstall package
+3) sudo apt remove <package name> //uninstall package
 
-4)sudo apt purge <package name> //uninstall package with their configuration and files and all thing related to it 
+4) sudo apt purge <package name> //uninstall package with their configuration and files and all thing related to it 
 
-5)sudo apt autoremove //remove all unused packages clean the disk
+5) sudo apt autoremove //remove all unused packages clean the disk
 
 ---
 
 **Searching, Finding & Filtering**
 
-1)find . -name test.txt
+1) find . -name test.txt
 output :- ./test.txt //if it exist 
