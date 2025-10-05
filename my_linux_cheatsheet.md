@@ -80,3 +80,11 @@ imp:- apt (Advance package tool)
 
 1) find . -name test.txt
 output :- ./test.txt //if it exist 
+
+2) find ~ -name text.txt
+
+3) find . -name "*.<extension>" to find all files with extension //case-sensitive "name"
+ 
+4) find . -iname test.txt //case-insensitive "iname"
+
+5) find . -mtime -1 //shows one day ago modified files 
