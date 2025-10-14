@@ -106,3 +106,24 @@ output :- ./test.txt //if it exist
 4) find . -iname test.txt //case-insensitive "iname"
 
 5) find . -mtime -1 //shows one day ago modified files 
+
+
+//Manage user
+
+1) Add user :- sudo adduser <user_name>
+
+2) For entering to that user use :- su - <user_name>
+
+3) For adding the feature to it giving previllages to user :- sudo usermod -aG sudo <user_name>
+
+// Installing Packages in Ubuntu: apt-get, apt, dpkg
+
+sudo apt install tree
+
+sudo apt remove tree 
+
+sudo apt purge tree 
+
+sudo apt-get install tree
+
+
